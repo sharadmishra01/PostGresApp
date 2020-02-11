@@ -1,0 +1,866 @@
+2019-11-19 16:32:21.238  INFO 14608 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 14608 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 16:32:21.240  INFO 14608 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 16:32:21.881  INFO 14608 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1643a5ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 16:32:21.916  INFO 14608 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 16:32:22.104  INFO 14608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 16:32:22.110  INFO 14608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 16:32:22.110  INFO 14608 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 16:32:22.208  INFO 14608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 16:32:22.209  INFO 14608 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 942 ms
+2019-11-19 16:32:26.701  INFO 14608 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 16:32:26.704  INFO 14608 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 16:32:26.710  INFO 14608 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 16:32:26.759  INFO 14608 --- [main] dev-updater                              : Visited 0 classes. Took 48 ms.
+2019-11-19 16:32:26.772  INFO 14608 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 16:32:26.772  INFO 14608 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 16:32:26.807  INFO 14608 --- [main] dev-updater                              : Visited 9 resources. Took 34 ms.
+2019-11-19 16:32:26.813  INFO 14608 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 16:32:28.212  INFO 14608 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 59672 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 59672 --watchDogPort=59671 -d --inline=false
+2019-11-19 16:32:29.718  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Project is running at http://localhost:59672/webpack-dev-server/[0m
+2019-11-19 16:32:29.719  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: webpack output is served from /[0m
+2019-11-19 16:32:29.719  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Content not from webpack is served from D:\STS\Postgres, src/main/webapp[0m
+2019-11-19 16:32:29.721  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 16:32:30.187  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m         Serving the 'stats.json' file dynamically.[0m
+2019-11-19 16:32:30.201  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Hash: c5c4de67e4987fee85bd[0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mVersion: webpack 4.30.0[0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mTime: 497ms[0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mBuilt at: 11/19/2019 4:32:30 PM[0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                                                                     Asset       Size      Chunks             Chunk Names[0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                         build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js   4.95 KiB      bundle  [emitted]  bundle[0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                      build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                     build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js   4.95 KiB  bundle.es5  [emitted]  bundle.es5[0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                  build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                                          build\webcomponentsjs\LICENSE.md   1.52 KiB              [emitted]  [0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                                           build\webcomponentsjs\README.md   10.5 KiB              [emitted]  [0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-ce.js   19.5 KiB              [emitted]  [0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-ce.js.map    129 KiB              [emitted]  [0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                   build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js    113 KiB              [emitted]  [0m
+2019-11-19 16:32:30.202  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m               build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js.map    675 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\bundles\webcomponents-sd-ce.js   84.8 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                  build\webcomponentsjs\bundles\webcomponents-sd-ce.js.map    548 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-sd.js   66.2 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-sd.js.map    419 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\custom-elements-es5-adapter.js  950 bytes              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                                        build\webcomponentsjs\package.json   2.37 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mbuild\webcomponentsjs\src\entrypoints\custom-elements-es5-adapter-index.js  659 bytes              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m       build\webcomponentsjs\src\entrypoints\webcomponents-bundle-index.js   1.66 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-ce-index.js  675 bytes              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m        build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-index.js  860 bytes              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m     build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-pf-index.js   1.22 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-sd-index.js  767 bytes              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-bundle.js    114 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\webcomponents-bundle.js.map    677 KiB              [emitted]  [0m
+2019-11-19 16:32:30.203  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-loader.js   6.13 KiB              [emitted]  [0m
+2019-11-19 16:32:30.204  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle = build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js[0m
+2019-11-19 16:32:30.204  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle.es5 = build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js[0m
+2019-11-19 16:32:30.204  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 218 bytes {bundle.es5} [built][0m
+2019-11-19 16:32:30.204  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 220 bytes {bundle} [built][0m
+2019-11-19 16:32:30.204  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Compiled successfully.[0m
+2019-11-19 16:32:30.204  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35m
+----------------- Frontend compiled successfully. -----------------[0m
+2019-11-19 16:32:30.466  WARN 14608 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 16:32:30.466  WARN 14608 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-11-19 16:32:30.466  WARN 14608 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 16:32:30.671  INFO 14608 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 16:32:31.259  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-11-19 16:32:31.260  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-11-19 16:32:31.286  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-11-19 16:32:31.293  INFO 14608 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-11-19 16:32:31.298  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-11-19 16:32:31.301  INFO 14608 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2019-11-19 16:32:31.307  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2019-11-19 16:32:31.307  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-11-19 16:32:31.308  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-11-19 16:32:31.308  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-11-19 16:32:31.308  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-11-19 16:32:31.308  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-11-19 16:32:31.308  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-11-19 16:32:31.309  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-11-19 16:32:31.309  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-11-19 16:32:31.310  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-11-19 16:32:31.310  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-11-19 16:32:31.310  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-11-19 16:32:31.310  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-11-19 16:32:31.310  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-11-19 16:32:31.310  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-11-19 16:32:31.311  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-11-19 16:32:31.312  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2019-11-19 16:32:31.312  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2019-11-19 16:32:31.312  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-11-19 16:32:31.312  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.27 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-11-19 16:32:31.312  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2019-11-19 16:32:31.316  INFO 14608 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-11-19 16:32:31.342  INFO 14608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 16:32:31.344  INFO 14608 --- [main] com.example.demo.PostgresApplication     : Started PostgresApplication in 10.331 seconds (JVM running for 10.938)
+2019-11-19 16:32:40.716  INFO 14608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 16:32:40.716  INFO 14608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-19 16:32:40.732  INFO 14608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2019-11-19 16:33:03.070  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connection closed. Trying to re-run watchdog.[0m
+2019-11-19 16:33:03.071  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 16:33:03.085  INFO 14608 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 16:33:03.098  INFO 14608 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 16:33:03.255  INFO 14608 --- [webpack] dev-webpack                              : [38;5;35mStopped 'webpack-dev-server'[0m
+2019-11-19 16:33:19.259  INFO 4912 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 4912 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 16:33:19.262  INFO 4912 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 16:33:20.000  INFO 4912 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bc91c766] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 16:33:20.037  INFO 4912 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 16:33:20.274  INFO 4912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 16:33:20.282  INFO 4912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 16:33:20.282  INFO 4912 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 16:33:20.388  INFO 4912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 16:33:20.389  INFO 4912 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1095 ms
+2019-11-19 16:33:24.915  INFO 4912 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 16:33:24.919  INFO 4912 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 16:33:24.925  INFO 4912 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 16:33:24.979  INFO 4912 --- [main] dev-updater                              : Visited 0 classes. Took 54 ms.
+2019-11-19 16:33:24.994  INFO 4912 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 16:33:24.994  INFO 4912 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 16:33:25.054  INFO 4912 --- [main] dev-updater                              : Visited 9 resources. Took 60 ms.
+2019-11-19 16:33:25.066  INFO 4912 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 16:33:26.440  INFO 4912 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 59812 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 59812 --watchDogPort=59811 -d --inline=false
+2019-11-19 16:33:27.848  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Project is running at http://localhost:59812/webpack-dev-server/[0m
+2019-11-19 16:33:27.848  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: webpack output is served from /[0m
+2019-11-19 16:33:27.849  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Content not from webpack is served from D:\STS\Postgres, src/main/webapp[0m
+2019-11-19 16:33:27.851  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 16:33:28.304  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m         Serving the 'stats.json' file dynamically.[0m
+2019-11-19 16:33:28.317  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Hash: c5c4de67e4987fee85bd[0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mVersion: webpack 4.30.0[0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mTime: 482ms[0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mBuilt at: 11/19/2019 4:33:28 PM[0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                                                                     Asset       Size      Chunks             Chunk Names[0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                         build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js   4.95 KiB      bundle  [emitted]  bundle[0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                      build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                     build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js   4.95 KiB  bundle.es5  [emitted]  bundle.es5[0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                  build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                                          build\webcomponentsjs\LICENSE.md   1.52 KiB              [emitted]  [0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                                           build\webcomponentsjs\README.md   10.5 KiB              [emitted]  [0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-ce.js   19.5 KiB              [emitted]  [0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-ce.js.map    129 KiB              [emitted]  [0m
+2019-11-19 16:33:28.318  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                   build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js    113 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m               build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js.map    675 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\bundles\webcomponents-sd-ce.js   84.8 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                  build\webcomponentsjs\bundles\webcomponents-sd-ce.js.map    548 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-sd.js   66.2 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-sd.js.map    419 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\custom-elements-es5-adapter.js  950 bytes              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                                        build\webcomponentsjs\package.json   2.37 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mbuild\webcomponentsjs\src\entrypoints\custom-elements-es5-adapter-index.js  659 bytes              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m       build\webcomponentsjs\src\entrypoints\webcomponents-bundle-index.js   1.66 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-ce-index.js  675 bytes              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m        build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-index.js  860 bytes              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m     build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-pf-index.js   1.22 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-sd-index.js  767 bytes              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-bundle.js    114 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\webcomponents-bundle.js.map    677 KiB              [emitted]  [0m
+2019-11-19 16:33:28.319  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-loader.js   6.13 KiB              [emitted]  [0m
+2019-11-19 16:33:28.320  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle = build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js[0m
+2019-11-19 16:33:28.320  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle.es5 = build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js[0m
+2019-11-19 16:33:28.320  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 218 bytes {bundle.es5} [built][0m
+2019-11-19 16:33:28.320  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 220 bytes {bundle} [built][0m
+2019-11-19 16:33:28.320  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Compiled successfully.[0m
+2019-11-19 16:33:28.320  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35m
+----------------- Frontend compiled successfully. -----------------[0m
+2019-11-19 16:33:28.652  WARN 4912 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 16:33:28.652  WARN 4912 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-11-19 16:33:28.652  WARN 4912 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 16:33:28.913  INFO 4912 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 16:33:29.573  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-11-19 16:33:29.573  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-11-19 16:33:29.604  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-11-19 16:33:29.611  INFO 4912 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-11-19 16:33:29.617  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-11-19 16:33:29.621  INFO 4912 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2019-11-19 16:33:29.627  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2019-11-19 16:33:29.628  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-11-19 16:33:29.628  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-11-19 16:33:29.628  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-11-19 16:33:29.629  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-11-19 16:33:29.629  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-11-19 16:33:29.629  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-11-19 16:33:29.629  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-11-19 16:33:29.630  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-11-19 16:33:29.630  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-11-19 16:33:29.630  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-11-19 16:33:29.631  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-11-19 16:33:29.631  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-11-19 16:33:29.631  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-11-19 16:33:29.631  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-11-19 16:33:29.632  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-11-19 16:33:29.633  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-11-19 16:33:29.635  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2019-11-19 16:33:29.635  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2019-11-19 16:33:29.635  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-11-19 16:33:29.635  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.27 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-11-19 16:33:29.635  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2019-11-19 16:33:29.638  INFO 4912 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-11-19 16:33:29.667  INFO 4912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 16:33:29.670  INFO 4912 --- [main] com.example.demo.PostgresApplication     : Started PostgresApplication in 10.683 seconds (JVM running for 11.436)
+2019-11-19 16:33:37.047  INFO 4912 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 16:33:37.047  INFO 4912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-19 16:33:37.069  INFO 4912 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 22 ms
+2019-11-19 16:33:37.151  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connection closed. Trying to re-run watchdog.[0m
+2019-11-19 16:33:37.152  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:08:46.907  INFO 4912 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 17:08:46.931  INFO 4912 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:08:47.125  INFO 4912 --- [webpack] dev-webpack                              : [38;5;35mStopped 'webpack-dev-server'[0m
+2019-11-19 17:08:58.115  INFO 25028 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 25028 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 17:08:58.117  INFO 25028 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 17:08:58.803  INFO 25028 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8e7af665] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 17:08:58.842  INFO 25028 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 17:08:59.066  INFO 25028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 17:08:59.071  INFO 25028 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 17:08:59.071  INFO 25028 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 17:08:59.177  INFO 25028 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 17:08:59.177  INFO 25028 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1034 ms
+2019-11-19 17:09:03.529  INFO 25028 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 17:09:03.532  INFO 25028 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 17:09:03.538  INFO 25028 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 17:09:03.597  INFO 25028 --- [main] dev-updater                              : Visited 0 classes. Took 58 ms.
+2019-11-19 17:09:03.682  INFO 25028 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 17:09:03.682  INFO 25028 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 17:09:03.720  INFO 25028 --- [main] dev-updater                              : Visited 9 resources. Took 38 ms.
+2019-11-19 17:09:03.727  INFO 25028 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 17:09:05.222  INFO 25028 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 60877 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 60877 --watchDogPort=60876 -d --inline=false
+2019-11-19 17:09:06.930  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Project is running at http://localhost:60877/webpack-dev-server/[0m
+2019-11-19 17:09:06.930  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: webpack output is served from /[0m
+2019-11-19 17:09:06.930  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Content not from webpack is served from D:\STS\Postgres, src/main/webapp[0m
+2019-11-19 17:09:06.931  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:09:07.439  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m         Serving the 'stats.json' file dynamically.[0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Hash: c5c4de67e4987fee85bd[0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mVersion: webpack 4.30.0[0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mTime: 538ms[0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mBuilt at: 11/19/2019 5:09:07 PM[0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                                                                     Asset       Size      Chunks             Chunk Names[0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                         build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js   4.95 KiB      bundle  [emitted]  bundle[0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                      build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:09:07.453  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                     build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js   4.95 KiB  bundle.es5  [emitted]  bundle.es5[0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                  build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                                          build\webcomponentsjs\LICENSE.md   1.52 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                                           build\webcomponentsjs\README.md   10.5 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-ce.js   19.5 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-ce.js.map    129 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                   build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js    113 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m               build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js.map    675 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\bundles\webcomponents-sd-ce.js   84.8 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                  build\webcomponentsjs\bundles\webcomponents-sd-ce.js.map    548 KiB              [emitted]  [0m
+2019-11-19 17:09:07.454  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-sd.js   66.2 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-sd.js.map    419 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\custom-elements-es5-adapter.js  950 bytes              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                                        build\webcomponentsjs\package.json   2.37 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mbuild\webcomponentsjs\src\entrypoints\custom-elements-es5-adapter-index.js  659 bytes              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m       build\webcomponentsjs\src\entrypoints\webcomponents-bundle-index.js   1.66 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-ce-index.js  675 bytes              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m        build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-index.js  860 bytes              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m     build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-pf-index.js   1.22 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-sd-index.js  767 bytes              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-bundle.js    114 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\webcomponents-bundle.js.map    677 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-loader.js   6.13 KiB              [emitted]  [0m
+2019-11-19 17:09:07.455  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle = build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js[0m
+2019-11-19 17:09:07.456  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle.es5 = build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js[0m
+2019-11-19 17:09:07.456  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 218 bytes {bundle.es5} [built][0m
+2019-11-19 17:09:07.456  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 220 bytes {bundle} [built][0m
+2019-11-19 17:09:07.456  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Compiled successfully.[0m
+2019-11-19 17:09:07.456  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35m
+----------------- Frontend compiled successfully. -----------------[0m
+2019-11-19 17:09:07.772  WARN 25028 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:09:07.772  WARN 25028 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-11-19 17:09:07.772  WARN 25028 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:09:07.963  INFO 25028 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:09:08.501  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-11-19 17:09:08.501  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-11-19 17:09:08.531  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-11-19 17:09:08.536  INFO 25028 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-11-19 17:09:08.541  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-11-19 17:09:08.543  INFO 25028 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2019-11-19 17:09:08.548  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2019-11-19 17:09:08.549  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-11-19 17:09:08.549  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-11-19 17:09:08.549  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-11-19 17:09:08.549  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-11-19 17:09:08.549  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-11-19 17:09:08.550  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-11-19 17:09:08.550  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-11-19 17:09:08.551  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-11-19 17:09:08.551  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-11-19 17:09:08.551  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-11-19 17:09:08.551  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-11-19 17:09:08.551  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-11-19 17:09:08.551  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-11-19 17:09:08.551  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-11-19 17:09:08.552  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-11-19 17:09:08.553  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-11-19 17:09:08.554  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2019-11-19 17:09:08.554  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2019-11-19 17:09:08.554  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-11-19 17:09:08.554  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.27 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-11-19 17:09:08.554  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2019-11-19 17:09:08.557  INFO 25028 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-11-19 17:09:08.581  INFO 25028 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 17:09:08.584  INFO 25028 --- [main] com.example.demo.PostgresApplication     : Started PostgresApplication in 10.702 seconds (JVM running for 11.626)
+2019-11-19 17:13:41.767  INFO 25028 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 17:13:41.767  INFO 25028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-19 17:13:41.796  INFO 25028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2019-11-19 17:15:09.498  INFO 18328 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 18328 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 17:15:09.500  INFO 18328 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 17:15:10.169  INFO 18328 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$22c94b88] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 17:15:10.203  INFO 18328 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 17:15:10.391  INFO 18328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 17:15:10.398  INFO 18328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 17:15:10.398  INFO 18328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 17:15:10.516  INFO 18328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 17:15:10.516  INFO 18328 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 988 ms
+2019-11-19 17:15:12.965  INFO 25028 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 17:15:12.981  INFO 25028 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:15:13.128  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connection closed. Trying to re-run watchdog.[0m
+2019-11-19 17:15:13.129  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:15:13.138  INFO 25028 --- [webpack] dev-webpack                              : [38;5;35mStopped 'webpack-dev-server'[0m
+2019-11-19 17:15:14.890  INFO 18328 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 17:15:14.894  INFO 18328 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 17:15:14.899  INFO 18328 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 17:15:14.958  INFO 18328 --- [main] dev-updater                              : Visited 0 classes. Took 58 ms.
+2019-11-19 17:15:14.972  INFO 18328 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 17:15:14.972  INFO 18328 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 17:15:15.011  INFO 18328 --- [main] dev-updater                              : Visited 9 resources. Took 38 ms.
+2019-11-19 17:15:15.018  INFO 18328 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 17:15:16.539  INFO 18328 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 61076 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 61076 --watchDogPort=61075 -d --inline=false
+2019-11-19 17:15:25.265  INFO 27392 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 27392 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 17:15:25.268  INFO 27392 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 17:15:25.913  INFO 27392 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bf1aff57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 17:15:25.949  INFO 27392 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 17:15:26.135  INFO 27392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 17:15:26.140  INFO 27392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 17:15:26.141  INFO 27392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 17:15:26.274  INFO 27392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 17:15:26.274  INFO 27392 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 980 ms
+2019-11-19 17:15:30.630  INFO 27392 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 17:15:30.633  INFO 27392 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 17:15:30.638  INFO 27392 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 17:15:30.681  INFO 27392 --- [main] dev-updater                              : Visited 0 classes. Took 43 ms.
+2019-11-19 17:15:30.693  INFO 27392 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 17:15:30.693  INFO 27392 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 17:15:30.727  INFO 27392 --- [main] dev-updater                              : Visited 9 resources. Took 33 ms.
+2019-11-19 17:15:30.734  INFO 27392 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 17:15:32.203  INFO 27392 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 61088 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 61088 --watchDogPort=61087 -d --inline=false
+2019-11-19 17:15:33.727  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Project is running at http://localhost:61088/webpack-dev-server/[0m
+2019-11-19 17:15:33.728  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: webpack output is served from /[0m
+2019-11-19 17:15:33.728  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Content not from webpack is served from D:\STS\Postgres, src/main/webapp[0m
+2019-11-19 17:15:33.730  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:15:34.251  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m         Serving the 'stats.json' file dynamically.[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Hash: c5c4de67e4987fee85bd[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mVersion: webpack 4.30.0[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mTime: 549ms[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mBuilt at: 11/19/2019 5:15:34 PM[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                                                                     Asset       Size      Chunks             Chunk Names[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                         build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js   4.95 KiB      bundle  [emitted]  bundle[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                      build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                     build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js   4.95 KiB  bundle.es5  [emitted]  bundle.es5[0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                  build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                                          build\webcomponentsjs\LICENSE.md   1.52 KiB              [emitted]  [0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                                           build\webcomponentsjs\README.md   10.5 KiB              [emitted]  [0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-ce.js   19.5 KiB              [emitted]  [0m
+2019-11-19 17:15:34.264  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-ce.js.map    129 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                   build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js    113 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m               build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js.map    675 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\bundles\webcomponents-sd-ce.js   84.8 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                  build\webcomponentsjs\bundles\webcomponents-sd-ce.js.map    548 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-sd.js   66.2 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-sd.js.map    419 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\custom-elements-es5-adapter.js  950 bytes              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                                        build\webcomponentsjs\package.json   2.37 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mbuild\webcomponentsjs\src\entrypoints\custom-elements-es5-adapter-index.js  659 bytes              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m       build\webcomponentsjs\src\entrypoints\webcomponents-bundle-index.js   1.66 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-ce-index.js  675 bytes              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m        build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-index.js  860 bytes              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m     build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-pf-index.js   1.22 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-sd-index.js  767 bytes              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-bundle.js    114 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\webcomponents-bundle.js.map    677 KiB              [emitted]  [0m
+2019-11-19 17:15:34.265  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-loader.js   6.13 KiB              [emitted]  [0m
+2019-11-19 17:15:34.266  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle = build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js[0m
+2019-11-19 17:15:34.266  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle.es5 = build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js[0m
+2019-11-19 17:15:34.266  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 218 bytes {bundle.es5} [built][0m
+2019-11-19 17:15:34.266  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 220 bytes {bundle} [built][0m
+2019-11-19 17:15:34.266  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Compiled successfully.[0m
+2019-11-19 17:15:34.266  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35m
+----------------- Frontend compiled successfully. -----------------[0m
+2019-11-19 17:15:34.574  WARN 27392 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:15:34.574  WARN 27392 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-11-19 17:15:34.574  WARN 27392 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:15:34.759  INFO 27392 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:15:35.296  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-11-19 17:15:35.296  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-11-19 17:15:35.328  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-11-19 17:15:35.333  INFO 27392 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-11-19 17:15:35.337  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-11-19 17:15:35.340  INFO 27392 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2019-11-19 17:15:35.345  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2019-11-19 17:15:35.345  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-11-19 17:15:35.345  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-11-19 17:15:35.346  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-11-19 17:15:35.346  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-11-19 17:15:35.346  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-11-19 17:15:35.346  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-11-19 17:15:35.346  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-11-19 17:15:35.347  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.348  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-11-19 17:15:35.349  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-11-19 17:15:35.350  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2019-11-19 17:15:35.350  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2019-11-19 17:15:35.350  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-11-19 17:15:35.351  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.27 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-11-19 17:15:35.351  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2019-11-19 17:15:35.353  INFO 27392 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-11-19 17:15:35.377  INFO 27392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 17:15:35.379  INFO 27392 --- [main] com.example.demo.PostgresApplication     : Started PostgresApplication in 10.37 seconds (JVM running for 11.042)
+2019-11-19 17:15:49.855  INFO 27392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 17:15:49.856  INFO 27392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-19 17:15:49.882  INFO 27392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-11-19 17:16:05.371  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connection closed. Trying to re-run watchdog.[0m
+2019-11-19 17:16:05.372  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:16:33.171  INFO 27392 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 17:16:33.191  INFO 27392 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:16:33.346  INFO 27392 --- [webpack] dev-webpack                              : [38;5;35mStopped 'webpack-dev-server'[0m
+2019-11-19 17:16:40.766  INFO 27236 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 27236 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 17:16:40.770  INFO 27236 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 17:16:41.581  INFO 27236 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$96eb3c5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 17:16:41.620  INFO 27236 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 17:16:41.846  INFO 27236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 17:16:41.853  INFO 27236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 17:16:41.853  INFO 27236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 17:16:41.971  INFO 27236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 17:16:41.971  INFO 27236 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1169 ms
+2019-11-19 17:16:46.503  INFO 27236 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 17:16:46.506  INFO 27236 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 17:16:46.512  INFO 27236 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 17:16:46.557  INFO 27236 --- [main] dev-updater                              : Visited 0 classes. Took 44 ms.
+2019-11-19 17:16:46.570  INFO 27236 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 17:16:46.571  INFO 27236 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 17:16:46.607  INFO 27236 --- [main] dev-updater                              : Visited 9 resources. Took 36 ms.
+2019-11-19 17:16:46.615  INFO 27236 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 17:16:48.158  INFO 27236 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 61137 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 61137 --watchDogPort=61136 -d --inline=false
+2019-11-19 17:16:49.806  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Project is running at http://localhost:61137/webpack-dev-server/[0m
+2019-11-19 17:16:49.806  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: webpack output is served from /[0m
+2019-11-19 17:16:49.806  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Content not from webpack is served from D:\STS\Postgres, src/main/webapp[0m
+2019-11-19 17:16:49.809  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:16:50.295  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m         Serving the 'stats.json' file dynamically.[0m
+2019-11-19 17:16:50.309  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Hash: c5c4de67e4987fee85bd[0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mVersion: webpack 4.30.0[0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mTime: 515ms[0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mBuilt at: 11/19/2019 5:16:50 PM[0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                                                                     Asset       Size      Chunks             Chunk Names[0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                         build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js   4.95 KiB      bundle  [emitted]  bundle[0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                      build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                     build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js   4.95 KiB  bundle.es5  [emitted]  bundle.es5[0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                  build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                                          build\webcomponentsjs\LICENSE.md   1.52 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                                           build\webcomponentsjs\README.md   10.5 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-ce.js   19.5 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-ce.js.map    129 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                   build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js    113 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m               build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js.map    675 KiB              [emitted]  [0m
+2019-11-19 17:16:50.310  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\bundles\webcomponents-sd-ce.js   84.8 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                  build\webcomponentsjs\bundles\webcomponents-sd-ce.js.map    548 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-sd.js   66.2 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-sd.js.map    419 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\custom-elements-es5-adapter.js  950 bytes              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                                        build\webcomponentsjs\package.json   2.37 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mbuild\webcomponentsjs\src\entrypoints\custom-elements-es5-adapter-index.js  659 bytes              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m       build\webcomponentsjs\src\entrypoints\webcomponents-bundle-index.js   1.66 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-ce-index.js  675 bytes              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m        build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-index.js  860 bytes              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m     build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-pf-index.js   1.22 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-sd-index.js  767 bytes              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-bundle.js    114 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\webcomponents-bundle.js.map    677 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-loader.js   6.13 KiB              [emitted]  [0m
+2019-11-19 17:16:50.311  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle = build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js[0m
+2019-11-19 17:16:50.312  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle.es5 = build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js[0m
+2019-11-19 17:16:50.312  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 218 bytes {bundle.es5} [built][0m
+2019-11-19 17:16:50.312  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 220 bytes {bundle} [built][0m
+2019-11-19 17:16:50.312  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Compiled successfully.[0m
+2019-11-19 17:16:50.312  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35m
+----------------- Frontend compiled successfully. -----------------[0m
+2019-11-19 17:16:53.800  WARN 27236 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:16:53.800  WARN 27236 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-11-19 17:16:53.800  WARN 27236 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:16:54.106  INFO 27236 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:16:54.788  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-11-19 17:16:54.788  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-11-19 17:16:54.825  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-11-19 17:16:54.832  INFO 27236 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-11-19 17:16:54.837  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-11-19 17:16:54.841  INFO 27236 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2019-11-19 17:16:54.848  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2019-11-19 17:16:54.848  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-11-19 17:16:54.849  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-11-19 17:16:54.849  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-11-19 17:16:54.849  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-11-19 17:16:54.849  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-11-19 17:16:54.849  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-11-19 17:16:54.850  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-11-19 17:16:54.851  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-11-19 17:16:54.851  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-11-19 17:16:54.851  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-11-19 17:16:54.851  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-11-19 17:16:54.851  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-11-19 17:16:54.851  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-11-19 17:16:54.852  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.852  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.852  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.852  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.852  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.852  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2019-11-19 17:16:54.853  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-11-19 17:16:54.854  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-11-19 17:16:54.854  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-11-19 17:16:54.855  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2019-11-19 17:16:54.855  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2019-11-19 17:16:54.855  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-11-19 17:16:54.855  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.27 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-11-19 17:16:54.855  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2019-11-19 17:16:54.858  INFO 27236 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-11-19 17:16:54.886  INFO 27236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 17:16:54.889  INFO 27236 --- [main] com.example.demo.PostgresApplication     : Started PostgresApplication in 14.384 seconds (JVM running for 15.298)
+2019-11-19 17:17:07.660  INFO 27236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 17:17:07.660  INFO 27236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-19 17:17:07.685  INFO 27236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-11-19 17:27:24.911  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connection closed. Trying to re-run watchdog.[0m
+2019-11-19 17:27:24.912  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:38:07.279  INFO 27236 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 17:38:07.302  INFO 27236 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:38:14.612  INFO 27236 --- [webpack] dev-webpack                              : [38;5;35mStopped 'webpack-dev-server'[0m
+2019-11-19 17:38:27.248  INFO 22944 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 22944 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 17:38:27.251  INFO 22944 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 17:38:27.910  INFO 22944 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$af807735] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 17:38:27.945  INFO 22944 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 17:38:28.139  INFO 22944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 17:38:28.145  INFO 22944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 17:38:28.145  INFO 22944 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 17:38:28.247  INFO 22944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 17:38:28.247  INFO 22944 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 970 ms
+2019-11-19 17:38:33.031  INFO 22944 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 17:38:33.034  INFO 22944 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 17:38:33.040  INFO 22944 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 17:38:33.089  INFO 22944 --- [main] dev-updater                              : Visited 0 classes. Took 48 ms.
+2019-11-19 17:38:33.102  INFO 22944 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 17:38:33.102  INFO 22944 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 17:38:33.139  INFO 22944 --- [main] dev-updater                              : Visited 9 resources. Took 37 ms.
+2019-11-19 17:38:33.146  INFO 22944 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 17:38:34.711  INFO 22944 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 61846 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 61846 --watchDogPort=61845 -d --inline=false
+2019-11-19 17:38:36.589  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Project is running at http://localhost:61846/webpack-dev-server/[0m
+2019-11-19 17:38:36.589  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: webpack output is served from /[0m
+2019-11-19 17:38:36.589  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Content not from webpack is served from D:\STS\Postgres, src/main/webapp[0m
+2019-11-19 17:38:36.590  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:38:37.094  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m         Serving the 'stats.json' file dynamically.[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Hash: c5c4de67e4987fee85bd[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mVersion: webpack 4.30.0[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mTime: 539ms[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mBuilt at: 11/19/2019 5:38:37 PM[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                                                                     Asset       Size      Chunks             Chunk Names[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                         build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js   4.95 KiB      bundle  [emitted]  bundle[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                      build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                     build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js   4.95 KiB  bundle.es5  [emitted]  bundle.es5[0m
+2019-11-19 17:38:37.109  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                  build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                                          build\webcomponentsjs\LICENSE.md   1.52 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                                           build\webcomponentsjs\README.md   10.5 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-ce.js   19.5 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-ce.js.map    129 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                   build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js    113 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m               build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js.map    675 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\bundles\webcomponents-sd-ce.js   84.8 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                  build\webcomponentsjs\bundles\webcomponents-sd-ce.js.map    548 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-sd.js   66.2 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-sd.js.map    419 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\custom-elements-es5-adapter.js  950 bytes              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                                        build\webcomponentsjs\package.json   2.37 KiB              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mbuild\webcomponentsjs\src\entrypoints\custom-elements-es5-adapter-index.js  659 bytes              [emitted]  [0m
+2019-11-19 17:38:37.110  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m       build\webcomponentsjs\src\entrypoints\webcomponents-bundle-index.js   1.66 KiB              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-ce-index.js  675 bytes              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m        build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-index.js  860 bytes              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m     build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-pf-index.js   1.22 KiB              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-sd-index.js  767 bytes              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-bundle.js    114 KiB              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\webcomponents-bundle.js.map    677 KiB              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-loader.js   6.13 KiB              [emitted]  [0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle = build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js[0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle.es5 = build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js[0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 218 bytes {bundle.es5} [built][0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 220 bytes {bundle} [built][0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Compiled successfully.[0m
+2019-11-19 17:38:37.111  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35m
+----------------- Frontend compiled successfully. -----------------[0m
+2019-11-19 17:38:37.440  WARN 22944 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:38:37.440  WARN 22944 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-11-19 17:38:37.440  WARN 22944 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:38:37.659  INFO 22944 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:38:38.235  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-11-19 17:38:38.236  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-11-19 17:38:38.266  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-11-19 17:38:38.272  INFO 22944 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-11-19 17:38:38.277  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-11-19 17:38:38.279  INFO 22944 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2019-11-19 17:38:38.285  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2019-11-19 17:38:38.285  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-11-19 17:38:38.286  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-11-19 17:38:38.286  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-11-19 17:38:38.286  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-11-19 17:38:38.286  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-11-19 17:38:38.286  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-11-19 17:38:38.286  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-11-19 17:38:38.287  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-11-19 17:38:38.287  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-11-19 17:38:38.288  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-11-19 17:38:38.288  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-11-19 17:38:38.288  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-11-19 17:38:38.288  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-11-19 17:38:38.288  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-11-19 17:38:38.289  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-11-19 17:38:38.290  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-11-19 17:38:38.291  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2019-11-19 17:38:38.291  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2019-11-19 17:38:38.291  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-11-19 17:38:38.291  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.27 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-11-19 17:38:38.291  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2019-11-19 17:38:38.294  INFO 22944 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-11-19 17:38:38.319  INFO 22944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 17:38:38.321  INFO 22944 --- [main] com.example.demo.PostgresApplication     : Started PostgresApplication in 11.294 seconds (JVM running for 11.989)
+2019-11-19 17:38:38.356  INFO 22944 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 17:38:38.357  INFO 22944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-19 17:38:38.371  INFO 22944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2019-11-19 17:39:38.310  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connection closed. Trying to re-run watchdog.[0m
+2019-11-19 17:39:38.311  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:42:01.636  INFO 22944 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 17:42:01.649  INFO 22944 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:42:01.789  INFO 22944 --- [webpack] dev-webpack                              : [38;5;35mStopped 'webpack-dev-server'[0m
+2019-11-19 17:42:10.120  INFO 22316 --- [main] com.example.demo.PostgresApplication     : Starting PostgresApplication on DELLXPS-SHARADMISHRA with PID 22316 (D:\STS\Postgres\target\classes started by sharad.mishra in D:\STS\Postgres)
+2019-11-19 17:42:10.122  INFO 22316 --- [main] com.example.demo.PostgresApplication     : No active profile set, falling back to default profiles: default
+2019-11-19 17:42:10.771  INFO 22316 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8fd3448e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 17:42:10.803  INFO 22316 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2019-11-19 17:42:10.987  INFO 22316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-11-19 17:42:10.992  INFO 22316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-11-19 17:42:10.993  INFO 22316 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-19 17:42:11.090  INFO 22316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-11-19 17:42:11.090  INFO 22316 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 944 ms
+2019-11-19 17:42:15.627  INFO 22316 --- [main] c.v.f.s.VaadinServletContextInitializer  : Search for subclasses and classes with annotations took 4 seconds
+2019-11-19 17:42:15.630  INFO 22316 --- [main] c.v.f.server.startup.DevModeInitializer  : Starting dev-mode updaters in D:\STS\Postgres folder.
+2019-11-19 17:42:15.636  INFO 22316 --- [main] dev-updater                              : Scanning classes to find frontend configurations and dependencies...
+2019-11-19 17:42:15.686  INFO 22316 --- [main] dev-updater                              : Visited 0 classes. Took 49 ms.
+2019-11-19 17:42:15.699  INFO 22316 --- [main] dev-updater                              : Skipping `npm install`.
+2019-11-19 17:42:15.699  INFO 22316 --- [main] dev-updater                              : Copying frontend resources from jar files ...
+2019-11-19 17:42:15.732  INFO 22316 --- [main] dev-updater                              : Visited 9 resources. Took 34 ms.
+2019-11-19 17:42:15.739  INFO 22316 --- [main] dev-updater                              : Updated D:\STS\Postgres\target\frontend\generated-flow-imports.js
+2019-11-19 17:42:17.061  INFO 22316 --- [main] dev-webpack                              : Starting webpack-dev-server, port: 62136 dir: D:\STS\Postgres
+   C:\Program Files\nodejs\node.exe D:\STS\Postgres\node_modules\webpack-dev-server\bin\webpack-dev-server.js --config D:\STS\Postgres\webpack.config.js --port 62136 --watchDogPort=62135 -d --inline=false
+2019-11-19 17:42:18.432  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Project is running at http://localhost:62136/webpack-dev-server/[0m
+2019-11-19 17:42:18.432  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: webpack output is served from /[0m
+2019-11-19 17:42:18.433  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mi ｢wds｣: Content not from webpack is served from D:\STS\Postgres, src/main/webapp[0m
+2019-11-19 17:42:18.434  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 17:42:18.909  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m         Serving the 'stats.json' file dynamically.[0m
+2019-11-19 17:42:18.927  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Hash: c5c4de67e4987fee85bd[0m
+2019-11-19 17:42:18.927  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mVersion: webpack 4.30.0[0m
+2019-11-19 17:42:18.927  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mTime: 508ms[0m
+2019-11-19 17:42:18.927  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mBuilt at: 11/19/2019 5:42:18 PM[0m
+2019-11-19 17:42:18.927  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                                                                     Asset       Size      Chunks             Chunk Names[0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                         build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js   4.95 KiB      bundle  [emitted]  bundle[0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                      build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                     build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js   4.95 KiB  bundle.es5  [emitted]  bundle.es5[0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                  build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js.gz   1.75 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                                          build\webcomponentsjs\LICENSE.md   1.52 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                                           build\webcomponentsjs\README.md   10.5 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-ce.js   19.5 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-ce.js.map    129 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                   build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js    113 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m               build\webcomponentsjs\bundles\webcomponents-sd-ce-pf.js.map    675 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\bundles\webcomponents-sd-ce.js   84.8 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                  build\webcomponentsjs\bundles\webcomponents-sd-ce.js.map    548 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\bundles\webcomponents-sd.js   66.2 KiB              [emitted]  [0m
+2019-11-19 17:42:18.928  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                     build\webcomponentsjs\bundles\webcomponents-sd.js.map    419 KiB              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                      build\webcomponentsjs\custom-elements-es5-adapter.js  950 bytes              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                                        build\webcomponentsjs\package.json   2.37 KiB              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mbuild\webcomponentsjs\src\entrypoints\custom-elements-es5-adapter-index.js  659 bytes              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m       build\webcomponentsjs\src\entrypoints\webcomponents-bundle-index.js   1.66 KiB              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-ce-index.js  675 bytes              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m        build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-index.js  860 bytes              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m     build\webcomponentsjs\src\entrypoints\webcomponents-sd-ce-pf-index.js   1.22 KiB              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m           build\webcomponentsjs\src\entrypoints\webcomponents-sd-index.js  767 bytes              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-bundle.js    114 KiB              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                         build\webcomponentsjs\webcomponents-bundle.js.map    677 KiB              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m                             build\webcomponentsjs\webcomponents-loader.js   6.13 KiB              [emitted]  [0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle = build/vaadin-bundle-6bd890ee857b71e2fec8.cache.js[0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mEntrypoint bundle.es5 = build/vaadin-bundle.es5-c7f9d685548a9890e36f.cache.js[0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 218 bytes {bundle.es5} [built][0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m[../target/frontend/generated-flow-imports.js] 220 bytes {bundle} [built][0m
+2019-11-19 17:42:18.929  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mi ｢wdm｣: Compiled successfully.[0m
+2019-11-19 17:42:18.930  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35m
+----------------- Frontend compiled successfully. -----------------[0m
+2019-11-19 17:42:19.279  WARN 22316 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:42:19.279  WARN 22316 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : Spring Data REST HAL Browser is deprecated! Prefer the HAL Explorer (artifactId: spring-data-rest-hal-explorer)!
+2019-11-19 17:42:19.279  WARN 22316 --- [main] o.s.d.rest.webmvc.halbrowser.HalBrowser  : ---
+2019-11-19 17:42:19.468  INFO 22316 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 17:42:20.003  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler mapped to context-path: /*
+2019-11-19 17:42:20.003  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed the following AtmosphereInterceptor mapped to AtmosphereHandler com.vaadin.flow.server.communication.PushAtmosphereHandler
+2019-11-19 17:42:20.027  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.util.VoidAnnotationProcessor for processing annotation
+2019-11-19 17:42:20.032  INFO 22316 --- [main] org.atmosphere.util.ForkJoinPool         : Using ForkJoinPool  java.util.concurrent.ForkJoinPool. Set the org.atmosphere.cpr.broadcaster.maxAsyncWriteThreads to -1 to fully use its power.
+2019-11-19 17:42:20.038  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed WebSocketProtocol org.atmosphere.websocket.protocol.SimpleHttpProtocol 
+2019-11-19 17:42:20.040  INFO 22316 --- [main] o.a.container.JSR356AsyncSupport         : JSR 356 Mapping path /vaadinServlet
+2019-11-19 17:42:20.045  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installing Default AtmosphereInterceptors
+2019-11-19 17:42:20.046  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CorsInterceptor : CORS Interceptor Support
+2019-11-19 17:42:20.046  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.CacheHeadersInterceptor : Default Response's Headers Interceptor
+2019-11-19 17:42:20.046  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.PaddingAtmosphereInterceptor : Browser Padding Interceptor Support
+2019-11-19 17:42:20.046  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.AndroidAtmosphereInterceptor : Android Interceptor Support
+2019-11-19 17:42:20.046  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Dropping Interceptor org.atmosphere.interceptor.HeartbeatInterceptor
+2019-11-19 17:42:20.047  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.SSEAtmosphereInterceptor : SSE Interceptor Support
+2019-11-19 17:42:20.048  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JSONPAtmosphereInterceptor : JSONP Interceptor Support
+2019-11-19 17:42:20.048  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.JavaScriptProtocol : Atmosphere JavaScript Protocol
+2019-11-19 17:42:20.048  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor : org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor
+2019-11-19 17:42:20.048  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.OnDisconnectInterceptor : Browser disconnection detection
+2019-11-19 17:42:20.048  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : 	org.atmosphere.interceptor.IdleResourceInterceptor : org.atmosphere.interceptor.IdleResourceInterceptor
+2019-11-19 17:42:20.048  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Set org.atmosphere.cpr.AtmosphereInterceptor.disableDefaults to disable them.
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor CORS Interceptor Support with priority FIRST_BEFORE_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Default Response's Headers Interceptor with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser Padding Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Android Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor SSE Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor JSONP Interceptor Support with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Atmosphere JavaScript Protocol with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.WebSocketMessageSuspendInterceptor with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor Browser disconnection detection with priority AFTER_DEFAULT 
+2019-11-19 17:42:20.049  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor org.atmosphere.interceptor.IdleResourceInterceptor with priority BEFORE_DEFAULT 
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using EndpointMapper class org.atmosphere.util.DefaultEndpointMapper
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterCache: org.atmosphere.cache.UUIDBroadcasterCache
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Default Broadcaster Class: org.atmosphere.cpr.DefaultBroadcaster
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Shared List Resources: false
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Broadcaster Polling Wait Time 100
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Shared ExecutorService supported: true
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Messaging ExecutorService Pool Size unavailable - Not instance of ThreadPoolExecutor
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Async I/O Thread Pool Size: 200
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using BroadcasterFactory: org.atmosphere.cpr.DefaultBroadcasterFactory
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using AtmosphereResurceFactory: org.atmosphere.cpr.DefaultAtmosphereResourceFactory
+2019-11-19 17:42:20.050  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Using WebSocketProcessor: org.atmosphere.websocket.DefaultWebSocketProcessor
+2019-11-19 17:42:20.051  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Invoke AtmosphereInterceptor on WebSocket message true
+2019-11-19 17:42:20.051  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : HttpSession supported: true
+2019-11-19 17:42:20.051  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using org.atmosphere.inject.InjectableObjectFactory for dependency injection and object creation
+2019-11-19 17:42:20.051  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere is using async support: org.atmosphere.container.JSR356AsyncSupport running under container: Apache Tomcat/9.0.27 using javax.servlet/3.0 and jsr356/WebSocket API
+2019-11-19 17:42:20.051  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Atmosphere Framework 2.4.30.slf4jvaadin1 started.
+2019-11-19 17:42:20.054  INFO 22316 --- [main] org.atmosphere.cpr.AtmosphereFramework   : Installed AtmosphereInterceptor  Track Message Size Interceptor using | with priority BEFORE_DEFAULT 
+2019-11-19 17:42:20.078  INFO 22316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-19 17:42:20.080  INFO 22316 --- [main] com.example.demo.PostgresApplication     : Started PostgresApplication in 10.182 seconds (JVM running for 10.779)
+2019-11-19 17:43:02.098  INFO 22316 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 17:43:02.098  INFO 22316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-11-19 17:43:02.115  INFO 22316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2019-11-19 17:43:02.222  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connection closed. Trying to re-run watchdog.[0m
+2019-11-19 17:43:02.222  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mWatchdog connected.[0m
+2019-11-19 18:04:16.853  INFO 22316 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-11-19 18:04:16.874  INFO 22316 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 18:04:17.052  INFO 22316 --- [webpack] dev-webpack                              : [38;5;35mStopped 'webpack-dev-server'[0m

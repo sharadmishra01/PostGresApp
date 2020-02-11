@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        //Usually, you put script-tags into the head
+        function myFunction() {
+            //This performs a POST-Request.
+            //Use "$.get();" in order to perform a GET-Request (you have to take a look in the rest-API-documentation, if you're unsure what you need)
+            //The Browser downloads the webpage from the given url, and returns the data.
+            $.post( "http://localhost:8089/saveStudents", function( data ) {
+                 //As soon as the browser finished downloading, this function is called.
+                 $('#demo').html(data);
+            });
+        }
+    </script>
+</head>
+<body>
+  <h2>Download Student Data!</h2>
+<button type="button" onclick="myFunction()">Download</button>
+<p id="demo"></p>
+</body>
+</html>
